@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === "production") {
   uri = process.env.ATLAS_URI
 }
 
-// database connection ppol
+// database connection ppol her
 let db = ""
 let dbName = "notetaker"
 MongoClient.connect(uri, { useNewUrlParser: true,                            
